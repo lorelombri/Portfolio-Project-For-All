@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home {
+    height: 500hv;
+    background: linear-gradient(-90deg, #031540 50%, #ffff 50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: linear-gradient(-90deg, #031540 50%, #ffff 50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    margin-bottom: 50px; /* Aggiunto margine inferiore per evitare sovrapposizioni con i progetti */
+}
+
+.logo {
+    font-size: 25px;
+    color: #031540;
+    text-decoration: none;
+    font-weight: 700;
+    margin-right: auto; /* Allinea il logo a sinistra e sposta i link della navbar verso destra */
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a:active {
+    color: #00abf0;
+}
+
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 150px; /* Spazio aggiunto per i progetti */
+}
+
+.project1 {
+    width: 100%;
+    margin: 80px;
+    padding: 20px;
+    background-color: #031540;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    color: #ffff;
+    overflow: hidden;
+    width: calc(40% - 20px);
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.project2 {
+    width: 100%;
+    margin: 80px;
+    padding: 20px;
+    background-color: #ffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    color: #031540;
+    overflow: hidden;
+    width: calc(40% - 20px);
+    margin-bottom: 20px;
+}
+
+.project-image img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.project-details {
+    padding: 20px;
+}
+
+.project h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    margin-bottom: 20px;;
+}
+
+.project a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #00abf0;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.project a.btn:hover {
+    background-color: #0984e3;
+}
+
+.btn {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #00abf0;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0984e3;
+}
